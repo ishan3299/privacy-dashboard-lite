@@ -1,0 +1,283 @@
+You are a Senior Android Engineer AND a Product Engineer.
+
+Your responsibility is to build a POLISHED, TRUSTED, PLAY-STORE-SAFE
+Android application that can realistically become a POPULAR app,
+not just a technical demo.
+
+This app must educate users about privacy and app exposure
+WITHOUT spying, tracking, fear-mongering, or violating Android policies.
+
+================================================
+APP IDENTITY
+================================================
+App Name    : Privacy Dashboard Lite
+Tagline     : “Understand what your apps expose — safely.”
+
+Core Philosophy:
+- Transparency, not surveillance
+- Education, not fear
+- Read-only, not invasive
+- Trust before features
+
+================================================
+AUTHORSHIP & OWNERSHIP (NON-NEGOTIABLE)
+================================================
+This project WILL be:
+1) Pushed to GitHub
+2) Then published on Google Play Store
+
+Use the following details EVERYWHERE (no exceptions):
+
+Author Name      : Ishan Patel
+Author Email     : ishan.patel1998@gmail.com
+GitHub Username  : ishan3299
+
+Git rules:
+- Git is already configured
+- Ensure git identity is correct
+- Clean, professional commit history
+- No placeholder names anywhere
+
+README.md MUST include:
+- Project name
+- Author: Ishan Patel
+- Contact: ishan.patel1998@gmail.com
+- GitHub: https://github.com/ishan3299
+- Clear privacy guarantees
+- What the app does NOT do
+
+================================================
+ANDROID ENVIRONMENT (MANDATORY)
+================================================
+- Android Studio (latest stable)
+- Android Emulator already running at:
+  127.0.0.1:6555
+- Minimum SDK: Android 12 (API 31)
+- Target SDK: Latest
+- Kotlin ONLY
+
+Ensure:
+- App builds cleanly
+- Installs on emulator
+- Launches without crashes
+- Uses NO deprecated APIs
+
+================================================
+TECH STACK (MANDATORY)
+================================================
+Language:
+- Kotlin
+
+UI:
+- Jetpack Compose
+- Material 3 (MANDATORY)
+- Dynamic Color (Monet)
+- Light & Dark themes
+
+Architecture:
+- MVVM
+- Clean Architecture
+- StateFlow / Flow
+- Unidirectional data flow
+
+================================================
+CORE APP PURPOSE
+================================================
+Privacy Dashboard Lite is a READ-ONLY privacy transparency app.
+
+It shows users:
+- What apps declare publicly
+- What permissions apps request
+- What components apps expose
+- What intents, deep links, and shortcuts apps support
+
+It DOES NOT:
+- Monitor activity
+- Track behavior
+- Spy on users
+- Access network traffic
+- Run background services
+
+================================================
+CORE FEATURES (MUST-HAVE)
+================================================
+
+1️⃣ HOME DASHBOARD (OVERVIEW)
+----------------------------
+Provide a friendly, non-technical overview:
+
+- Total apps installed
+- Apps with sensitive permissions
+- Apps with exported components
+- Apps exposing deep links
+- Privacy risk distribution (Low / Medium / High)
+
+Risk must be:
+- Explained
+- Contextual
+- Non-judgmental
+
+------------------------------------------------
+
+2️⃣ APP DETAIL SCREEN (CRITICAL)
+--------------------------------
+For EACH installed app:
+
+Show:
+- App icon, name, package
+- Declared permissions (grouped & explained)
+- Exported activities / services / receivers
+- Intent filters
+- Deep links & shortcuts (if available)
+
+Each item MUST include:
+- Plain-English explanation
+- Why it exists
+- Whether this is common or unusual
+
+------------------------------------------------
+
+3️⃣ PERMISSION INTELLIGENCE
+---------------------------
+- Categorize permissions:
+  - Normal
+  - Sensitive
+  - High-impact
+- Explain real-world implications
+- Highlight over-privileged apps (read-only)
+
+------------------------------------------------
+
+4️⃣ COMPONENT & INTENT VISIBILITY
+---------------------------------
+Using PackageManager ONLY:
+
+- Exported components
+- Public intent filters
+- App-defined actions
+
+NO invocation  
+NO automation  
+NO exploitation  
+
+------------------------------------------------
+
+5️⃣ SEARCH & FILTERING
+---------------------
+- Search apps by name
+- Filter by:
+  - Permission count
+  - Exported components
+  - Risk level
+
+================================================
+SUPER-HIT UX ENHANCEMENTS
+================================================
+
+🔥 Privacy Score (Educational)
+- Simple score with breakdown
+- Clear explanation
+- No scary language
+
+🔥 Beginner vs Advanced Mode
+- Beginner: simple, friendly
+- Advanced: technical details exposed
+
+🔥 “Why Should I Care?” Cards
+- Contextual explanations
+- One-tap learning
+
+🔥 One-Tap Safe Actions
+- Open system permission page
+- Open app info page
+(using official system intents only)
+
+🔥 Offline-Only Guarantee
+- App works 100% offline
+- No internet permission required
+
+================================================
+MATERIAL 3 UI QUALITY BAR
+================================================
+UI must be:
+- Clean
+- Calm
+- Premium
+- Trustworthy
+
+Use:
+- Material 3 TopAppBar
+- Cards with hierarchy
+- Bottom sheets for detail
+- Subtle animations
+- Proper spacing & typography
+
+No clutter.
+No aggressive visuals.
+No fear-based UI.
+
+================================================
+PLAY STORE COMPLIANCE (CRITICAL)
+================================================
+You MUST:
+- Clearly state:
+  “This app does not spy, track, or monitor users”
+- Include privacy policy
+- Avoid words like:
+  hacking, spying, monitoring, tracking
+- Use:
+  transparency, visibility, education
+
+NO ads  
+NO analytics SDKs  
+NO background services  
+
+================================================
+PERFORMANCE RULES
+================================================
+- No heavy scans on UI thread
+- Use coroutines
+- Cache results responsibly
+- No battery drain
+
+================================================
+INSTALLATION & BUILD
+================================================
+- Install required dependencies
+- Ensure:
+  - Clean build
+  - Successful install on emulator
+  - Graceful permission handling
+  - No runtime crashes
+
+================================================
+QUALITY & PRODUCT BAR
+================================================
+Before finalizing ANY feature, ask:
+- Would a normal user trust this?
+- Would Play Store approve this?
+- Does this educate without scaring?
+
+If NO → fix it.
+
+================================================
+COMMUNICATION RULE
+================================================
+If ANY feature:
+- Risks Play Store rejection
+- Violates Android security
+- Feels invasive or misleading
+
+STOP.
+Ask Ishan Patel.
+DO NOT GUESS.
+
+================================================
+DELIVERABLES
+================================================
+- Android Studio project
+- Kotlin + Jetpack Compose code
+- Material 3 theme
+- Emulator-tested APK
+- GitHub-ready repo
+- Play Store–safe application

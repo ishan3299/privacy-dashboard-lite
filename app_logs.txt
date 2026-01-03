@@ -1,0 +1,20 @@
+--------- beginning of main
+01-03 14:07:38.951 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose_path:50: Could not open '/dev/goldfish_pipe': No such file or directory
+01-03 14:07:38.951 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose:121: both vsock and goldfish_pipe paths failed
+01-03 14:07:38.962 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose_path:50: Could not open '/dev/goldfish_pipe': No such file or directory
+01-03 14:07:38.962 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose:121: both vsock and goldfish_pipe paths failed
+01-03 14:07:38.972 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose_path:50: Could not open '/dev/goldfish_pipe': No such file or directory
+01-03 14:07:38.972 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose:121: both vsock and goldfish_pipe paths failed
+01-03 14:07:38.984 E/ashmem  ( 5723): memfd: ro.vndk.version not defined or invalid (), this is mandated since P.
+01-03 14:07:39.264 E/rivacydashboar( 5723): open_verbose_path:50: Could not open '/dev/goldfish_pipe': No such file or directory
+01-03 14:07:39.264 E/rivacydashboar( 5723): open_verbose:121: both vsock and goldfish_pipe paths failed
+01-03 14:07:39.271 E/rivacydashboar( 5723): open_verbose_path:50: Could not open '/dev/goldfish_pipe': No such file or directory
+01-03 14:07:39.271 E/rivacydashboar( 5723): open_verbose:121: both vsock and goldfish_pipe paths failed
+01-03 14:07:39.325 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose_path:50: Could not open '/dev/goldfish_pipe': No such file or directory
+01-03 14:07:39.325 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose:121: both vsock and goldfish_pipe paths failed
+01-03 14:07:39.345 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose_path:50: Could not open '/dev/goldfish_pipe': No such file or directory
+01-03 14:07:39.345 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose:121: both vsock and goldfish_pipe paths failed
+01-03 14:07:39.355 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose_path:50: Could not open '/dev/goldfish_pipe': No such file or directory
+01-03 14:07:39.355 E/android.hardware.graphics.allocator@2.0-service(  499): open_verbose:121: both vsock and goldfish_pipe paths failed
+--------- beginning of system
+01-03 14:07:41.956 E/TaskPersister( 1784): File error accessing recents directory (directory doesn't exist?).
